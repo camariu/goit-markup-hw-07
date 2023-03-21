@@ -10,14 +10,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="body">
     <!--Modal-->
     <div class="modal is-hidden" data-modal>
       <div class="inner-div">
-        <button class="button-data-modal-close" data-modal-close>
-          <div class="modal-close">
-            <svg class="modal-close-icon" width="18px" height="18px">
+        <button class="modal__button-close" data-modal-close>
+          <div class="modal__close">
+            <svg class="modal__icon" width="18px" height="18px">
               <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
           </div>
@@ -107,27 +108,27 @@
     <header class="page-header unstyled-list container">
       <nav class="page-header">
         <a class="page-header__logo-1" href="#">Studio</a>
-        <ul class="page-header__list page-header__link-nav unstyled-list">
-          <li class="page-header__link-nav"><a class="page-header__list" href="index.html">Studio</a>
+        <ul class="page-header--list unstyled-list">
+          <li class="page-header--list__link"><a class="page-header--list" href="index.html">Studio</a>
           </li>
           <li>
-            <a class="page-header__list" href="portfolio.html">Portfolio</a>
+            <a class="page-header--list" href="portfolio.html">Portfolio</a>
           </li>
-          <li><a class="page-header__list" href="#">Contacts</a></li>
+          <li><a class="page-header--list" href="#">Contacts</a></li>
         </ul>
       </nav>
       <div>
-        <ul class="page-header-navigation-list-right unstyled-list">
-          <li class="page-header-navigation-list-right__icons page-header-navigation-list-right__hover">
-              <a class="page-header-navigation-list-right__mailto page-header-navigation-list-right__hover" href="#"> 
-                <svg class="page-header-navigation-list-right__svg" width="16px" height="12px">
+        <ul class="page-header-right--list unstyled-list">
+          <li class="page-header-right--list__icons page-header-right--list__hover">
+              <a class="page-header-right--list__mailto page-header-right--list__hover" href="#"> 
+                <svg class="page-header-right--list__svg" width="16px" height="12px">
                 <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>info@devstudio.com
               </a>
           </li>     
-          <li class="page-header-navigation-list-right__icons page-header-navigation-list-right__hover">
-            <a class="page-header-navigation-list-right__tel page-header-navigation-list-right__hover" href="mailto:info@devstudio.com">
-              <svg class="page-header-navigation-list-right__svg" width="10px" height="16px">
+          <li class="page-header-right--list__icons page-header-right--list__hover">
+            <a class="page-header-right--list__tel page-header-right--list__hover" href="mailto:info@devstudio.com">
+              <svg class="page-header-right--list__svg" width="10px" height="16px">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>+1 212-772-4150
             </a>
@@ -138,8 +139,8 @@
     <main> 
       <!--HERO-->
       <section class="hero-section">
-        <div class="hero-section__container">
-          <h1 class="hero-section__title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+        <div class="hero-section-container">
+          <h1 class="hero-section-container__title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
           <ul class="hero-section--button unstyled-list">
             <li>
               <button data-modal-open class="hero-section--button__main-title" type="button">

@@ -1,0 +1,120 @@
+.container {
+  width: 1200px;
+  background: var(--wite-colore);
+  margin: auto;
+}
+
+.page-header {
+  align-items: start;
+  height: 80px;
+  display: flex;
+
+  &__logo-1 {
+    font-family: var(--font-Raleway);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-700);
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 53px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    list-style: none;
+  }
+
+  &__logo-1::before {
+    content: "Web";
+    color: var(--blue-colore);
+  }
+}
+
+.page-header--list {
+  display: flex;
+  font-family: var(--font-Roboto);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-500);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--black-colore);
+  text-decoration: none;
+  font-weight: bold;
+  gap: 50px;
+  margin: auto;
+
+  &__link::after {
+    content: "";
+    width: 0%;
+    display: block;
+    margin: auto;
+    background: var(--blue-colore);
+    height: 4px;
+    position: relative;
+    border-radius: 2px;
+    top: 29px;
+    visibility: hidden;
+    width: 100%;
+    visibility: visible;
+  }
+}
+
+.page-header-right--list {
+  display: flex;
+  margin-left: 330px;
+  margin-top: 32px;
+  color: var(--gray-colore);
+  text-decoration: none;
+
+  &__svg {
+    position: relative;
+    left: -10px;
+  }
+
+  &__mailto {
+    margin-left: 10px;
+    margin-right: 40px;
+  }
+
+  &__hover:hover {
+    fill: rgba(33, 150, 243, 1);
+    color: var(--blue-colore);
+    transition: var(--transition-cubic-bezier);
+    transition-duration: 250ms;
+  }
+
+  &__tel {
+    height: 16px;
+    width: 113px;
+    border-radius: nullpx;
+    margin-left: 10px;
+    position: relative;
+    top: -4px;
+  }
+
+  &__icons:hover {
+    fill: rgba(33, 150, 243, 1);
+    color: var(--blue-colore);
+    transition: var(--transition-cubic-bezier);
+    transition-duration: 250ms;
+  }
+
+  &__mailto {
+    margin-left: 10px;
+    margin-right: 40px;
+  }
+
+  &__icons {
+    fill: rgba(117, 117, 117, 1);
+  }
+}
+
+.page-header-right--list li a {
+  color: var(--gray-colore);
+  text-decoration: none;
+}
+
+.unstyled-list {
+  list-style: none;
+}
