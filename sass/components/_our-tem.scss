@@ -1,0 +1,101 @@
+.our-team {
+  height: 708px;
+  border-radius: 0px;
+  background-color: var(--wite-colore);
+  display: flex;
+  flex-direction: column;
+  margin-top: 77px;
+}
+
+.our-team-container {
+  width: 1200px;
+  background: var(--wite-colore);
+  margin: auto;
+  height: 648px;
+  margin-bottom: 59px;
+
+  &__title {
+    font-family: var(--font-Roboto);
+    font-size: 36px;
+    font-weight: var(--font-weight-700);
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 94px;
+  }
+}
+
+.our-team--list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  height: 428px;
+
+  &__images {
+    box-shadow: 0px 2px 0px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--wite-colore);
+  }
+
+  &__name {
+    font-family: var(--font-Roboto);
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--black-colore);
+    margin-top: 30px;
+  }
+  &__ocupation {
+    font-family: var(--font-Roboto);
+    font-size: 16px;
+    font-weight: var(--font-weight-400);
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--gray-colore);
+    margin-top: 10px;
+  }
+}
+
+.our-team-icon {
+  display: flex;
+  justify-content: center;
+
+  &__list {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 3.2px;
+  }
+
+  &__list li {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 3.2px;
+  }
+
+  &__backgound {
+    display: flex;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    background-color: var(--wite-colore);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    fill: rgba(175, 177, 184, 1);
+  }
+
+  &__backgound:hover {
+    background-color: var(--blue-colore);
+    fill: var(--wite-colore);
+    transition: var(--transition-cubic-bezier);
+    transition-duration: 250ms;
+  }
+}

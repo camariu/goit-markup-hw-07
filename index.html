@@ -9,88 +9,88 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="body">
     <!--Modal-->
     <div class="modal is-hidden" data-modal>
-      <div class="inner-div">
-        <button class="modal__button-close" data-modal-close>
-          <div class="modal__close">
-            <svg class="modal__icon" width="18px" height="18px">
+      <div class="modal-inner">
+        <button class="modal-inner__button-close" data-modal-close>
+          <div class="modal-inner__close">
+            <svg class="modal-inner__icon" width="18px" height="18px">
               <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
           </div>
         </button>
-        <h2 class="our-service-contact-form__title">
+        <h2 class="modal-inner__title">
           Leave your information and we'll call you back
         </h2>
-        <form name="contact-form" class="our-service-contact-form">
-          <label class="our-service-contact-form__label">
-            <span class="our-service-contact-form__label-name">Name</span>
+        <form name="contact-form" class="modal-form">
+          <label class="modal-form__label">
+            <span class="modal-form__label-name">Name</span>
             <input
               type="text"
               name="name"
-              class="our-service-contact-form__input"
+              class="modal-form__input"
             />
             <svg
-              class="our-service-contact-form__icon-svg"
+              class="modal-form__icon-svg"
               width="18px"
               height="18px"
             >
               <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
             </svg>
           </label>
-          <label class="our-service-contact-form__label">
-            <span class="our-service-contact-form__label-name">Telephone</span>
+          <label class="modal-form__label">
+            <span class="modal-form__label-name">Telephone</span>
             <input
               type="tel"
               name="phone"
-              class="our-service-contact-form__input"
+              class="modal-form__input"
             />
             <svg
-              class="our-service-contact-form__icon-svg"
+              class="modal-form__icon-svg"
               width="18px"
               height="18px"
             >
               <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
             </svg>
           </label>
-          <label class="our-service-contact-form__label">
-            <span class="our-service-contact-form__label-name"> E-mail</span>
+          <label class="modal-form__label">
+            <span class="modal-form__label-name"> E-mail</span>
 
             <input
               type="email"
               name="email"
-              class="our-service-contact-form__input"
+              class="modal-form__input"
             />
             <svg
-              class="our-service-contact-form__icon-svg"
+              class="modal-form__icon-svg"
               width="18px"
               height="18px"
             >
               <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
             </svg>
           </label>
-          <label class="our-service-contact-form__label">
-            <span class="our-service-contact-form__label-name">Comments</span>
+          <label class="modal-form__label">
+            <span class="modal-form__label-name">Comments</span>
             <textarea
               type="comments"
               name="comments"
               placeholder="Enter the text"
-              class="our-service-contact-form__comment">
+              class="modal-form__comment">
             </textarea>
           </label>
-          <label class="our-service-contact-form__checkbox">
+          <label class="modal-form__checkbox">
             <input type="checkbox" name="checkbox" />
-            <span class="our-service-contact-form__checkbox-replace"></span>
-            <p class="our-service-contact-form__paragraf">
+            <span class="modal-form__checkbox-rep"></span>
+            <p class="modal-form__paragraf">
               I agree with the letter and accept the
               <a href="">Terms and Conditions</a>
             </p>
             <svg
-              class="our-service-contact-form__icon-svg-termcondition"
+              class="modal-form__icon-svg-termcond"
               width="11px"
               height="8px"
             >
@@ -98,7 +98,7 @@
             </svg>
           </label>
 
-          <button class="our-service-contact-form__button" type="submit">
+          <button class="modal-form__button" type="submit">
             Send
           </button>
         </form>
@@ -268,8 +268,8 @@
       </section>
       <!--OUR TEAM-->
       <section class="our-team">
-        <div class="our-team__container">
-          <h2 class="our-team__title">Our Team</h2>
+        <div class="our-team-container">
+          <h2 class="our-team-container__title">Our Team</h2>
           <ul class="our-team--list unstyled-list">
             <li class="our-team--list__images">
               <img
@@ -444,7 +444,7 @@
       </section>
       <!--REGULAR COSTOMERS-->
       <section class="container">
-          <h2 class="customers__title">Regular Customers</h2>
+          <h2 class="customers-title">Regular Customers</h2>
         <ul class="customers--list unstyled-list">
           <li>
             <a class="customers--list__link-svg" href="#">
@@ -509,7 +509,7 @@
       <section class="footer-container">
         <div class="footer-nav">
           <a class="footer-nav__logo" href="WebStudio.html">Web</a>
-          <address class="footer-nav__adress">
+          <address class="footer-nav__address">
             <ul class="footer-nav--list unstyled-list">
               <li>
                 <a class="footer-nav--list__location" href="695ParkAveNY10065USA"
